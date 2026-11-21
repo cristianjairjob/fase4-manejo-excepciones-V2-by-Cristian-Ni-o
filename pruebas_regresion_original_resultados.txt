@@ -1,0 +1,37 @@
+test_01_sintaxis (regresion_base.PruebasOriginal.test_01_sintaxis) ... ok
+test_02_crear_producto_y_quitar_espacios (regresion_base.PruebasOriginal.test_02_crear_producto_y_quitar_espacios) ... ok
+test_03_codigo_vacio (regresion_base.PruebasOriginal.test_03_codigo_vacio) ... ok
+test_04_nombre_vacio (regresion_base.PruebasOriginal.test_04_nombre_vacio) ... ok
+test_05_precio_cero (regresion_base.PruebasOriginal.test_05_precio_cero) ... ok
+test_06_precio_negativo (regresion_base.PruebasOriginal.test_06_precio_negativo) ... ok
+test_07_precio_texto (regresion_base.PruebasOriginal.test_07_precio_texto) ... ok
+test_08_cantidad_negativa (regresion_base.PruebasOriginal.test_08_cantidad_negativa) ... ok
+test_09_cantidad_decimal (regresion_base.PruebasOriginal.test_09_cantidad_decimal) ... ok
+test_10_stock_cero_permitido (regresion_base.PruebasOriginal.test_10_stock_cero_permitido) ... ok
+test_11_venta_valida (regresion_base.PruebasOriginal.test_11_venta_valida) ... ok
+test_12_venta_agota_existencias (regresion_base.PruebasOriginal.test_12_venta_agota_existencias) ... ok
+test_13_venta_cero (regresion_base.PruebasOriginal.test_13_venta_cero) ... ok
+test_14_venta_negativa (regresion_base.PruebasOriginal.test_14_venta_negativa) ... ok
+test_15_venta_fraccionaria (regresion_base.PruebasOriginal.test_15_venta_fraccionaria) ... ok
+test_16_venta_sin_stock_no_descuenta (regresion_base.PruebasOriginal.test_16_venta_sin_stock_no_descuenta) ... ok
+test_17_codigo_duplicado_no_reemplaza (regresion_base.PruebasOriginal.test_17_codigo_duplicado_no_reemplaza) ... ok
+test_18_buscar_existente (regresion_base.PruebasOriginal.test_18_buscar_existente) ... ok
+test_19_buscar_inexistente (regresion_base.PruebasOriginal.test_19_buscar_inexistente) ... ok
+test_20_listar (regresion_base.PruebasOriginal.test_20_listar) ... ok
+test_21_total_venta (regresion_base.PruebasOriginal.test_21_total_venta) ... ok
+test_22_cargar_archivo_inexistente (regresion_base.PruebasOriginal.test_22_cargar_archivo_inexistente) ... ok
+test_23_guardar_y_recargar (regresion_base.PruebasOriginal.test_23_guardar_y_recargar) ... ok
+test_24_json_danado (regresion_base.PruebasOriginal.test_24_json_danado) ... ok
+test_25_json_campo_ausente (regresion_base.PruebasOriginal.test_25_json_campo_ausente) ... ok
+test_26_error_lectura_sistema_archivos (regresion_base.PruebasOriginal.test_26_error_lectura_sistema_archivos) ... ok
+test_27_error_escritura_sistema_archivos (regresion_base.PruebasOriginal.test_27_error_escritura_sistema_archivos) ... ok
+test_28_leer_entero_reintenta (regresion_base.PruebasOriginal.test_28_leer_entero_reintenta) ... ok
+test_29_leer_decimal_reintenta (regresion_base.PruebasOriginal.test_29_leer_decimal_reintenta) ... ok
+test_30_menu_completo_y_reinicio (regresion_base.PruebasOriginal.test_30_menu_completo_y_reinicio) ... ok
+test_31_menu_continua_tras_errores (regresion_base.PruebasOriginal.test_31_menu_continua_tras_errores) ... ok
+test_32_menu_recupera_json_sintacticamente_danado (regresion_base.PruebasOriginal.test_32_menu_recupera_json_sintacticamente_danado) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.959s
+
+OK

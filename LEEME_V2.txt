@@ -1,0 +1,85 @@
+INVENTARIO V2 - APORTE DE Cristian Niño
+=======================================
+
+ARCHIVO PARA EJECUTAR
+main_v2_by_cristian_niño.py
+
+Es un archivo autonomo: NO necesita importar main.py ni instalar bibliotecas.
+Requiere Python 3. Fue probado con Python 3.13.5 en Linux.
+
+1. Guarda el archivo en una carpeta. Para la primera prueba usa una carpeta nueva.
+2. Abre una terminal en esa carpeta.
+3. Ejecuta:
+   python "main_v2_by_cristian_niño.py"
+4. Si normalmente usas el comando py en Windows, puedes ejecutar:
+   py "main_v2_by_cristian_niño.py"
+
+CONSERVACION DEL ORIGINAL
+El main.py adjunto es una copia exacta del archivo original de tu companero.
+La V2 contiene todas sus lineas, incluidos sus comentarios y su arranque final.
+Solo se inserto un bloque nuevo antes del ultimo if __name__ == "__main__".
+Ese bloque ejecuta main_v2() y termina el proceso para que no se abra despues
+el menu original por segunda vez. No se sustituyo ninguna funcion del original.
+Al eliminar el bloque marcado, se recupera el original byte por byte.
+
+Los comentarios del bloque nuevo identifican el aporte de Cristian Niño.
+El codigo anterior a ese bloque y el arranque final siguen siendo del companero.
+
+NOVEDADES
+6. Reponer existencias: aumenta el stock de un producto existente.
+7. Consultar bitacora: muestra los ultimos 20 eventos registrados.
+
+Se validan codigo y unidades. Las unidades nuevas deben ser enteras mayores que
+cero; no se admiten decimales, texto no numerico, codigos vacios o inexistentes.
+El precio y el nombre del producto no cambian durante la reposicion.
+
+La bitacora registra fecha/hora local con zona horaria, nombre del aporte,
+producto, unidades, stock anterior y nuevo, y rechazos de reposicion.
+Si no se puede registrar una reposicion correcta, se restaura el stock previo.
+Si tambien falla el registro de un rechazo, se informa de ambos problemas.
+Si el inventario se guarda pero falla su registro en bitacora, se informa con
+un aviso y NO se afirma que el inventario no se guardo.
+
+ARCHIVOS GENERADOS
+inventario.json: el formato del original. Se guarda mediante la opcion 5.
+reposiciones_cristian.log: bitacora de la ampliacion; se agrega sin borrar.
+Ambos se crean en la carpeta DESDE LA QUE EJECUTES el comando.
+
+IMPORTANTE SOBRE EL GUARDADO
+La reposicion modifica el inventario EN MEMORIA. El log se escribe en el momento,
+pero debes usar la opcion 5 para conservar las existencias al cerrar el programa.
+La bitacora indica que la reposicion esta pendiente de guardar y, cuando el
+programa logra guardar y registrar ese guardado, aparece un evento GUARDADO.
+No se reconstruye el inventario a partir de la bitacora.
+No abras dos instancias contra los mismos archivos: no hay bloqueo concurrente.
+
+PRUEBA MANUAL DESDE CERO
+- Opcion 1: codigo CN001, nombre Teclado, precio 50000, cantidad 7.
+- Opcion 6: codigo CN001, unidades recibidas 5.
+- Debe mostrar: stock anterior 7, unidades recibidas 5, stock nuevo 12.
+- Opcion 7: consultar la reposicion y su fecha/hora real del equipo.
+- Opcion 6: codigo CN001, unidades recibidas 0. Debe rechazarlo y registrar el error.
+- Opcion 2: comprobar que el stock sigue en 12.
+- Opcion 5: guardar y salir.
+- Abrir de nuevo y usar opcion 2: el stock debe seguir en 12.
+
+PRUEBAS AUTOMATIZADAS
+Desde la carpeta que contiene estos archivos:
+python -m unittest -v test_main_v2 test_regresion_base
+
+Las pruebas usan directorios temporales y no alteran tu inventario real.
+Incluyen 32 casos de ampliacion/integridad y 32 casos de regresion del codigo base.
+Las salidas de la consola real estan en evidencias/. No son capturas de tu PC.
+No copies los archivos de ejemplo de evidencias/ encima de tu inventario real.
+
+ALCANCE Y LIMITACIONES
+No se corrigieron los errores preexistentes del original. Por ejemplo, su alta
+acepta precios NaN/infinito y algunas estructuras JSON incorrectas siguen
+provocando errores de carga. La gestion original de Ctrl+C/EOF tambien conserva
+sus limitaciones. El log nuevo no audita todas las ventas ni todos los errores
+del original: se limita a la funcionalidad agregada y al guardado de la V2.
+Las pruebas no garantizan ausencia de errores ni fueron ejecutadas en tu PC.
+
+Esta ampliacion corresponde al sistema de INVENTARIO compartido, no al sistema
+Software FJ de clientes, servicios y reservas del Anexo 3. No constituye por si
+sola el cumplimiento completo del anexo ni una garantia de calificacion.

@@ -1,0 +1,128 @@
+Datos cargados correctamente.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo: Nombre: Precio: Cantidad: Producto agregado.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo a vender: Unidades: Venta realizada. Total: $150,000
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo del producto a reponer: Unidades recibidas: Reposicion realizada: Teclado.
+Stock anterior: 7
+Unidades recibidas: 5
+Stock nuevo: 12
+Recuerde usar la opcion 5 para guardar el inventario y salir.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo del producto a reponer: Unidades recibidas: Error: Las unidades de reposicion deben ser un entero mayor a 0.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo del producto a reponer: Unidades recibidas: Error: Las unidades de reposicion deben ser un entero mayor a 0.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Codigo del producto a reponer: Unidades recibidas: Error: No existe el producto con código NO_EXISTE.
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: 
+===== BITACORA DE LA AMPLIACION =====
+
+2026-11-21T05:55:05+00:00 | REPOSICION
+Codigo=CN001; producto=Teclado; unidades=5; stock_anterior=7; stock_nuevo=12; cambio en memoria, pendiente de guardar con la opcion 5.
+
+2026-11-21T05:55:05+00:00 | ERROR_REPOSICION
+Codigo='CN001'; unidades='0'; motivo=Las unidades de reposicion deben ser un entero mayor a 0.
+
+2026-11-21T05:55:05+00:00 | ERROR_REPOSICION
+Codigo='CN001'; unidades='2.5'; motivo=Las unidades de reposicion deben ser un entero mayor a 0.
+
+2026-11-21T05:55:05+00:00 | ERROR_REPOSICION
+Codigo='NO_EXISTE'; unidades='5'; motivo=No existe el producto con código NO_EXISTE.
+
+Archivo: /tmp/demostracion_v2_kg4cciyg/reposiciones_cristian.log
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: [CN001] Teclado - $50,000 - Stock: 12
+
+Version 2 - Aporte de Cristian Niño
+
+===== INVENTARIO =====
+1. Agregar producto
+2. Listar productos
+3. Buscar producto
+4. Vender producto
+5. Guardar y salir
+6. Reponer existencias - Cristian Niño
+7. Consultar bitacora de reposiciones - Cristian Niño
+Seleccione una opcion: Datos guardados. Hasta pronto!

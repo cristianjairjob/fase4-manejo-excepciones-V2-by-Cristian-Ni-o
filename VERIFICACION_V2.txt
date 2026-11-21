@@ -1,0 +1,42 @@
+VERIFICACION DE LA VERSION 2 - Cristian Niño
+=================================================
+Archivo: main_v2_by_cristian_niño.py
+Entorno ejecutado: Python 3.13.5 | Linux
+
+1. INTEGRIDAD
+Original: 9001 bytes.
+SHA-256 original: 5ad0f66ba3427e57b780325b6f4afc8a57c864792f908dd5fb7653ab7a8079fc
+SHA-256 copia main.py entregada: 5ad0f66ba3427e57b780325b6f4afc8a57c864792f908dd5fb7653ab7a8079fc
+SHA-256 original recuperado al retirar el bloque: 5ad0f66ba3427e57b780325b6f4afc8a57c864792f908dd5fb7653ab7a8079fc
+Resultado: el original y la copia son identicos byte por byte.
+El original recuperado de la V2 tambien es identico byte por byte.
+No se elimino ni se sustituyo ninguna linea original; se inserto un bloque.
+
+Version 2: 22070 bytes, 496 lineas.
+SHA-256 V2: 9cb499febf1a8a86ba66e2ded956545a5431f90416deef6ef1f7b26cd0610849
+Bloque nuevo: 283 lineas, insertado antes del arranque original.
+
+2. PRUEBAS EJECUTADAS
+32 pruebas de la ampliacion/integridad: superadas, 0 fallos y 0 errores.
+32 pruebas de regresion de la funcionalidad base: superadas, 0 fallos y 0 errores.
+Total: 32 + 32 = 64 pruebas. Varios casos contienen comprobaciones adicionales.
+No se suman los subcasos para inflar el total indicado.
+Incluyen pruebas reales del menu como proceso separado, sin depender de main.py,
+rechazos sin cambio de existencias, bitacora, fallos de lectura/escritura,
+conservacion del stock ante fallo de log y guardado/recarga.
+
+3. DEMOSTRACION ADICIONAL
+Creacion CN001 / Teclado / precio 50000 / stock 10.
+Venta 3: 50000 * 3 = 150000; stock 10 - 3 = 7.
+Reposicion 5: stock 7 + 5 = 12.
+Se rechazan 0 unidades, 2.5 unidades y el codigo NO_EXISTE.
+Se consultan log e inventario, se guarda y se reinicia el proceso.
+Stock recuperado despues del reinicio: 12.
+Las transcripciones y el log real de esta demostracion estan en evidencias/.
+
+4. LIMITACIONES
+Todos los ensayos escriben en carpetas temporales, no en datos del usuario.
+No se verifico la ejecucion en el computador Windows del estudiante.
+El archivo original mantiene sus errores ya observados; no fueron corregidos.
+Superar estas pruebas no demuestra ausencia de fallos ni cumplimiento integral
+academico. Esta V2 es una ampliacion del inventario, no del sistema Software FJ.

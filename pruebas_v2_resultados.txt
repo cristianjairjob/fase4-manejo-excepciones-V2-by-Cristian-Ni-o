@@ -1,0 +1,37 @@
+test_01_original_inmutable (test_main_v2.PruebasV2.test_01_original_inmutable) ... ok
+test_02_solo_se_inserto_un_bloque (test_main_v2.PruebasV2.test_02_solo_se_inserto_un_bloque) ... ok
+test_03_metodos_originales_heredados_sin_sobrescribir (test_main_v2.PruebasV2.test_03_metodos_originales_heredados_sin_sobrescribir) ... ok
+test_04_operaciones_base (test_main_v2.PruebasV2.test_04_operaciones_base) ... ok
+test_05_reponer_cinco_sobre_siete_y_log (test_main_v2.PruebasV2.test_05_reponer_cinco_sobre_siete_y_log) ... ok
+test_06_reponer_stock_cero (test_main_v2.PruebasV2.test_06_reponer_stock_cero) ... ok
+test_07_espacios_y_texto_entero (test_main_v2.PruebasV2.test_07_espacios_y_texto_entero) ... ok
+test_08_varias_reposiciones (test_main_v2.PruebasV2.test_08_varias_reposiciones) ... ok
+test_09_unidades_invalidas_no_cambian_stock_y_se_registran (test_main_v2.PruebasV2.test_09_unidades_invalidas_no_cambian_stock_y_se_registran) ... ok
+test_10_codigos_invalidos_no_cambian_stock (test_main_v2.PruebasV2.test_10_codigos_invalidos_no_cambian_stock) ... ok
+test_11_stock_invalido_no_se_repara_silenciosamente (test_main_v2.PruebasV2.test_11_stock_invalido_no_se_repara_silenciosamente) ... ok
+test_12_fallo_escritura_log_restaura_stock (test_main_v2.PruebasV2.test_12_fallo_escritura_log_restaura_stock) ... ok
+test_13_rechazo_y_log_inaccesible_informa_ambos (test_main_v2.PruebasV2.test_13_rechazo_y_log_inaccesible_informa_ambos) ... ok
+test_14_encadenamiento_de_conversion (test_main_v2.PruebasV2.test_14_encadenamiento_de_conversion) ... ok
+test_15_limitaciones_originales_conservadas (test_main_v2.PruebasV2.test_15_limitaciones_originales_conservadas) ... ok
+test_16_guardar_y_recargar_despues_de_reponer (test_main_v2.PruebasV2.test_16_guardar_y_recargar_despues_de_reponer) ... ok
+test_17_no_hay_autoguardado_del_inventario (test_main_v2.PruebasV2.test_17_no_hay_autoguardado_del_inventario) ... ok
+test_18_historial_append_y_reapertura (test_main_v2.PruebasV2.test_18_historial_append_y_reapertura) ... ok
+test_19_historial_inexistente_y_vacio (test_main_v2.PruebasV2.test_19_historial_inexistente_y_vacio) ... ok
+test_20_consulta_solo_ultimos_veinte (test_main_v2.PruebasV2.test_20_consulta_solo_ultimos_veinte) ... ok
+test_21_historial_corrupto_no_se_modifica (test_main_v2.PruebasV2.test_21_historial_corrupto_no_se_modifica) ... ok
+test_22_escribir_en_directorio_y_leer_directorio_controlados (test_main_v2.PruebasV2.test_22_escribir_en_directorio_y_leer_directorio_controlados) ... ok
+test_23_saltos_de_linea_no_falsean_registros (test_main_v2.PruebasV2.test_23_saltos_de_linea_no_falsean_registros) ... ok
+test_24_menu_reutiliza_opciones_y_anade_dos (test_main_v2.PruebasV2.test_24_menu_reutiliza_opciones_y_anade_dos) ... ok
+test_25_consola_flujo_completo_sin_dependencia_main (test_main_v2.PruebasV2.test_25_consola_flujo_completo_sin_dependencia_main) ... ok
+test_26_consola_errores_y_continuidad (test_main_v2.PruebasV2.test_26_consola_errores_y_continuidad) ... ok
+test_27_consola_reinicio_recupera_stock_e_historial (test_main_v2.PruebasV2.test_27_consola_reinicio_recupera_stock_e_historial) ... ok
+test_28_consola_bitacora_no_escribible (test_main_v2.PruebasV2.test_28_consola_bitacora_no_escribible) ... ok
+test_29_consola_historial_corrupto_no_interrumpe_menu (test_main_v2.PruebasV2.test_29_consola_historial_corrupto_no_interrumpe_menu) ... ok
+test_30_fallo_guardado_original_no_se_oculta (test_main_v2.PruebasV2.test_30_fallo_guardado_original_no_se_oculta) ... ok
+test_31_fallo_log_tras_guardar_no_pierde_datos (test_main_v2.PruebasV2.test_31_fallo_log_tras_guardar_no_pierde_datos) ... ok
+test_32_objetos_no_afectados (test_main_v2.PruebasV2.test_32_objetos_no_afectados) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 4.002s
+
+OK
